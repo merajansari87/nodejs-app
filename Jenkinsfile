@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_REGISTRY = 'docker.io'
-        DOCKER_CREDENTIALS_ID = 'dockerhub-credentials'
+        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
         DOCKER_IMAGE = "merajansari87/nodejs-app"
         KUBE_CREDENTIALS_ID = 'kubeconfig'
         GIT_REPO = 'https://github.com/merajansari87/nodejs-app.git'
